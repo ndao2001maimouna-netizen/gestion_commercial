@@ -19,7 +19,7 @@ function saveProduct(){
     }while(count($errors)!=0);
 
     $products[]=[
-        "reference"=>genererReference($products),
+        "ref"=>genererReference($products),
         "libele"=>$libelle
     ];
 
